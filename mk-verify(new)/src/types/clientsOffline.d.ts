@@ -1,0 +1,67 @@
+export type mkauthClient = {
+  uuid: String;
+  id: String;
+  codigo: String;
+  nome: String;
+  bloqueado: String;
+  cli_ativado: String;
+  nome_res: String;
+  login: String;
+  cpf_cnpj: String;
+  tipo: String;
+  coordenadas: String;
+  senha: String;
+  email: String;
+  ip: String;
+  mac: String;
+  ramal: String;
+  endereco: String;
+  numero: String;
+  bairro: String;
+  complemento: String;
+  cidade: String;
+  estado: String;
+  cep: String;
+};
+
+export type mkauthClientWithDate = {
+  uuid: String;
+  id: String;
+  codigo: String;
+  date: String;
+  nome: String;
+  bloqueado: String;
+  cli_ativado: String;
+  nome_res: String;
+  login: String;
+  cpf_cnpj: String;
+  tipo: String;
+  coordenadas: String;
+  senha: String;
+  email: String;
+  ip: String;
+  mac: String;
+  ramal: String;
+  endereco: String;
+  numero: String;
+  bairro: String;
+  complemento: String;
+  cidade: String;
+  estado: String;
+  cep: String;
+};
+
+export type mikrotikClient = {
+  $$path: String;
+  id: String;
+  name: String;
+  service: String;
+  callerId: String;
+  address: String;
+  uptime: String;
+  encoding: String;
+  sessionId: String;
+  limitBytesIn: String;
+  limitBytesOut: String;
+  radius: String;
+};

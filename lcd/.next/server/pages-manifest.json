@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/loading": "pages/loading.html",
+  "/antennas": "pages/antennas.js",
+  "/clientesOffline": "pages/clientesOffline.js",
+  "/": "pages/index.js",
+  "/login": "pages/login.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
